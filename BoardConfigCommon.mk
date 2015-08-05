@@ -106,6 +106,7 @@ BOARD_SEPOLICY_UNION += \
     atvc_core.te \
     batt_health.te \
     bootmodem.te \
+    hostapd.te \
     hw_revs.te \
     mmi-boot-sh.te \
     mmi-touch-sh.te \

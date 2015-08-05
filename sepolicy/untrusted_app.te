@@ -1,0 +1,6 @@
+allow untrusted_app pds_file:dir getattr;
+allow untrusted_app persist_file:dir getattr;
+allow untrusted_app tombstone_data_file:dir search;
+
+allow untrusted_app block_device:blk_file getattr;
+allow untrusted_app modem_efs_partition_device:blk_file getattr;
