@@ -69,6 +69,9 @@ BOARD_USES_MOTOROLA_EMU_AUDIO := true
 # Camera
 TARGET_PROVIDES_CAMERA_HAL := true
 
+# CHROMIUM
+USE_PREBUILT_CHROMIUM := true
+
 # Graphics
 BOARD_EGL_CFG := $(LOCAL_PATH)/config/egl.cfg
 
